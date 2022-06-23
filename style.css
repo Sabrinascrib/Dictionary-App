@@ -52,3 +52,40 @@ body {
   color: var(--dark-gray);
   border-radius: 5px;
 }
+
+.result {
+  position: relative;
+}
+.result h3 {
+  font-size: 30px;
+  color: var(--dark-blue);
+}
+.result .word {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.result button {
+  background-color: transparent;
+  color: var(--main-color);
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.result .details {
+  display: flex;
+  gap: 10px;
+  color: var(--gray);
+  margin: 5px 0 20px 0;
+  font-size: 14px;
+}
+.word-meaning {
+  color: var(--dark-gray);
+}
+.word-example {
+  color: var(--dark-gray);
+  font-style: italic;
+  border-left: 5px solid var(--main-color);
+  padding-left: 20px;
+  margin-top: 30px;
+}
